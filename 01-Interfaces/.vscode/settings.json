@@ -1,0 +1,8 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "assert.h": "c",
+        "cmath": "c",
+        "math.h": "c"
+    }
+}

@@ -1,0 +1,7 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/GSoares/Escritorio/Facultad/Segundo año/SSL./01-Interfaces'
+gcc -c ConversionTest.c -o ConversionTest.o
+gcc -c Conversion.c -o Conversion.o
+gcc -o ConversionTest.out ConversionTest.o Conversion.o
+make: Leaving directory '/home/GSoares/Escritorio/Facultad/Segundo año/SSL./01-Interfaces'
+ 

@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/GSoares/Escritorio/Facultad/Segundo año/SSL.'
+make: Leaving directory '/home/GSoares/Escritorio/Facultad/Segundo año/SSL.'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

@@ -17,11 +17,11 @@ int main(void){
     double Max=100; 
     double Min=0;
     printf("Ingrese el Limite Inferior:\n");
-    scanf("%f", &Min);
+    scanf("%lf", &Min);
     printf("Ingrese el Limite Superior:\n");
-    scanf("%f", &Max);
+    scanf("%lf", &Max);
     printf("Ingrese el Incremento:\n");
-    scanf("%f", &Step);  //Nose debido a que no me toma los valores que ingreso pero estaria implentedao
+    scanf("%lf", &Step);  //Nose debido a que no me toma los valores que ingreso pero estaria implentedao
     //si lo hiciese, por mientras le dejo valores predefinidos
     PrintTablas(Min,Max,Step);
     return 0;

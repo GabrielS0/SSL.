@@ -10,7 +10,6 @@ Pasos:
         e)La diferencia entre hello2.i y hello3.i es que al no utilizar include no llamamos a todas las referencias de stdio.h, ya que declaramos printf en el archivo, ademas el hello3.c no tiene diferencia con el hello3.i si cambiamos algunas opciones al compilar en el preprocesador.
     2)Compilacion:
         c)Estan registrando el basepointer y el stackpointer para reservar espacio de invocacion, luego se llama a la funcion main, y luego hace nuevamente espacio para la variable i, se hace espacio para el llamado de funcion prontf, y luego se le asigna el valor 0 a eax para que sea el retorno de la funcion.
-
     3)Vinculacion:
         a)No se puede vincular ya que no esta declarada la funcion prontf y tampoco esta declarada la libreria stdio.h
         c)El programa ejecuto pero el resultado no es completamente el esperado ya que este cambia el valor constantemente, ya que esta mal hecho la pragmatica en la sentencia,
